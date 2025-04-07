@@ -3,7 +3,10 @@ import Logo from "../../assets/klogo.png";
 import { IoMdSearch } from "react-icons/io";
 import { FaUserCircle } from "react-icons/fa";
 import { FaCaretDown } from "react-icons/fa";
+<<<<<<< HEAD
 import Contact from "../../Pages/ContactUs";
+=======
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
 
 const Menu = [
   {
@@ -96,6 +99,7 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
 
             {/* order button */}
+<<<<<<< HEAD
             <a 
             href="/contact"
             className="bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3 group"
@@ -105,6 +109,17 @@ const Navbar = ({ handleOrderPopup }) => {
             </span>
             <FaUserCircle className="text-xl text-white drop-shadow-sm cursor-pointer" />
           </a>
+=======
+            <button
+              onClick={() => handleOrderPopup()}
+              className="bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white  py-1 px-4 rounded-full flex items-center gap-3 group"
+            >
+              <span className="group-hover:block hidden transition-all duration-200">
+                Contact Us
+              </span>
+              <FaUserCircle className="text-xl text-white drop-shadow-sm cursor-pointer" />
+            </button>
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
 
             {/* Darkmode Switch */}
           </div>

@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import Navbar from '../Components/New folder/Navbar/Navbar';
+=======
+import Navbar from '../Components/Navbar/Navbar';
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
 import Footer from '../Components/Footer/Footer';
 import { motion } from 'framer-motion';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
@@ -12,7 +16,11 @@ const ContactUs = () => {
       {/* Hero Section */}
       <section 
         className="relative bg-cover bg-center h-[50vh] flex flex-col items-center justify-center text-white text-center px-4 shadow-lg" 
+<<<<<<< HEAD
         style={{ backgroundImage: "url('https://th-i.thgim.com/public/incoming/v98n11/article67644712.ece/alternates/LANDSCAPE_1200/25EPBS_LEAD-NAHLA.jpg')" }}
+=======
+        style={{ backgroundImage: "url('https://source.unsplash.com/1600x800/?business,teamwork')" }}
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
       >
         <motion.h1 
           initial={{ opacity: 0, y: -50 }} 
@@ -62,7 +70,10 @@ const ContactUs = () => {
                 <option>Admissions</option>
                 <option>Visa Process</option>
                 <option>Scholarships</option>
+<<<<<<< HEAD
                 <option>Countries Selection</option>
+=======
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
               </select>
             </div>
             <div className="mb-4">

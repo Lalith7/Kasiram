@@ -57,6 +57,7 @@ const Hero = () => {
               {ContentList[currentIndex].description}
             </p>
             <div className="flex justify-start">
+<<<<<<< HEAD
             <button 
               data-aos="zoom-in" 
               data-aos-delay="700" 
@@ -65,6 +66,11 @@ const Hero = () => {
               Get Started
             </button>
 
+=======
+              <button data-aos="zoom-in" data-aos-delay="700" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:scale-105 duration-200 text-white py-2 px-4 rounded-full shadow-lg text-md font-medium">
+                Get Started
+              </button>
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
             </div>
           </div>
           {/* Image Section */}

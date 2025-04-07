@@ -1,7 +1,11 @@
 import React from "react";
 import CImg from "../../assets/abg.webp";
 import { BiBook } from "react-icons/bi";
+<<<<<<< HEAD
 import { FaGlobeAmericas, FaPlaneDeparture, FaHouseUser } from "react-icons/fa";
+=======
+import { FaGlobeAmericas } from "react-icons/fa";
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { IoSchool } from "react-icons/io5";
 
@@ -20,7 +24,10 @@ const About = () => {
                   className="max-w-[450px] h-[350px] w-full mx-auto drop-shadow-[5px_5px_12px_rgba(0,0,0,0.7)] object-cover"
                 />
               </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
               {/* Text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0 lg:px-16">
                 <h1
@@ -55,6 +62,7 @@ const About = () => {
                     <IoSchool size={20} />
                     <p className="text-gray-500 font-semibold">Career Counseling</p>
                   </div>
+<<<<<<< HEAD
                   <div className="flex items-center gap-4 text-sm">
                     <FaPlaneDeparture size={20} />
                     <p className="text-gray-500 font-semibold">Pre-departure Support</p>
@@ -63,6 +71,8 @@ const About = () => {
                     <FaHouseUser size={20} />
                     <p className="text-gray-500 font-semibold">Post-arrival Support</p>
                   </div>
+=======
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
                 </div>
               </div>
             </div>

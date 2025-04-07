@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import Navbar from '../Components/New folder/Navbar/Navbar';
+=======
+import Navbar from '../Components/Navbar/Navbar';
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
 import Footer from '../Components/Footer/Footer';
 import img1 from "../assets/university-admissions.webp"
 import img2 from "../assets/visa-assistance.jpg"

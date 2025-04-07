@@ -34,6 +34,7 @@ const destinations = [
     text: "Tech-driven economy, top universities, and EU job access.",
     img: "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg",
   },
+<<<<<<< HEAD
   {
     id: 6,
     name: "USA",
@@ -112,6 +113,8 @@ const destinations = [
     text: "Education innovation, free universities, and safe society.",
     img: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg",
   }
+=======
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
 ];
 
 const DestinationSlider = () => {
@@ -129,7 +132,11 @@ const DestinationSlider = () => {
   return (
     <div className="max-w-3xl mx-auto py-10">
       <div className="text-center mb-6">
+<<<<<<< HEAD
         <h2 className="text-4xl font-bold text-gray-800">Countries We Offer</h2>
+=======
+        <h2 className="text-4xl font-bold text-gray-800">Top Study Destinations</h2>
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
         <p className="text-gray-600 mt-2 text-lg">Unlock global education and career opportunities.</p>
       </div>
       <Slider {...settings}>

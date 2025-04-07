@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
@@ -21,6 +24,7 @@ const App = () => {
   )
 }
 
+<<<<<<< HEAD
 export default App
 =======
 import {BroweserRouter,Route,Routes} from 'react-router-dom'
@@ -42,3 +46,6 @@ function App() {
 
 export default App;
 >>>>>>> 77a3741f25f9d23b2d9ecbb5a2993a19dda84808
+=======
+export default App
+>>>>>>> 0e5df0c7ead65312faa3f950239dac7beef692ab
